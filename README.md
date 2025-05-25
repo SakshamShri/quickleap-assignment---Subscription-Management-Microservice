@@ -129,14 +129,14 @@ curl -X POST "http://127.0.0.1:8000/api/v1/auth/token" \
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| `POST` | `/api/v1/auth/token` | Get authentication token | ❌ |
+| `POST` | `/api/v1/auth/token` | Get authentication token | ✅ |
 | `GET` | `/api/v1/plans/` | Get all subscription plans | ✅ |
 | `POST` | `/api/v1/plans/` | Create new plan (admin) | ✅ |
 | `POST` | `/api/v1/subscriptions/` | Create subscription | ✅ |
 | `GET` | `/api/v1/subscriptions/{userId}` | Get user subscription | ✅ |
 | `PUT` | `/api/v1/subscriptions/{userId}` | Update subscription | ✅ |
 | `DELETE` | `/api/v1/subscriptions/{userId}` | Cancel subscription | ✅ |
-| `GET` | `/health` | Service health check | ❌ |
+| `GET` | `/health` | Service health check | ✅ |
 
 ### Example Usage
 ```bash
